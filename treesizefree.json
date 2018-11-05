@@ -1,0 +1,28 @@
+{
+    "homepage": "https://www.jam-software.com/treesize_free/",
+    "description": "Quickly Scan Directory Sizes and Find Space Hogs",
+    "version": "4.2.2",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.jam-software.com/company/freeware_license.shtml"
+    },
+    "url": "https://www.jam-software.de/treesize_free/TreeSizeFree-Portable.zip?v=4.2.2",
+    "hash": "09adb51c5bbfe3091ac4185bda280b543803128c9de611d287610da0914e8f84",
+    "shortcuts": [
+        [
+            "TreeSizeFree.exe",
+            "TreeSizeFree"
+        ]
+    ],
+    "persist": [
+        "GlobalOptions.xml",
+        "RibbonOptions.xml"
+    ],
+    "checkver": {
+        "url": "https://www.jam-software.com/treesize_free/changes.shtml",
+        "re": "Version ([^\\ ]+):"
+    },
+    "autoupdate": {
+        "url": "https://www.jam-software.de/treesize_free/TreeSizeFree-Portable.zip?v=$version"
+    }
+}
