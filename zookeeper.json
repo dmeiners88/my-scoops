@@ -19,7 +19,7 @@
         "Add-Content \"$dir/conf/zoo.cfg\" -Value \"tickTime=2000\"",
         "Add-Content \"$dir/conf/zoo.cfg\" -Value \"initLimit=10\"",
         "Add-Content \"$dir/conf/zoo.cfg\" -Value \"syncLimit=5\"",
-        "Add-Content \"$dir/conf/zoo.cfg\" -Value \"dataDir=$persist_dir/data\"",
+        "Add-Content \"$dir/conf/zoo.cfg\" -Value (\"dataDir=$persist_dir\\data\").replace('\\', '\\\\')",
         "Add-Content \"$dir/conf/zoo.cfg\" -Value \"clientPort=2181\""
     ],
     "checkver": {
