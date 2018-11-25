@@ -7,7 +7,7 @@
         "url": "https://raw.githubusercontent.com/xbmc/xbmc/master/LICENSE.md"
     },
     "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-17.6-Krypton-x86.exe#/dl.7z",
-    "hash": "D50AA59064F440618DC29D6CD65B47F783BBD7C75CAEA5359A96F4F00F31475F",
+    "hash": "d50aa59064f440618dc29d6cd65b47f783bbd7c75caea5359a96f4f00f31475f",
     "shortcuts": [
         [
             "Kodi.exe",
@@ -18,7 +18,7 @@
     "persist": "portable_data",
     "checkver": {
         "url": "https://github.com/xbmc/xbmc/releases/latest",
-        "re": "\/releases\/tag\/(?:v|V)?([\\d-\\w.]+)"
+        "re": "/releases/tag/(?:v|V)?([\\d-\\w.]+)"
     },
     "autoupdate": {
         "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-$version-x86.exe#/dl.7z"
