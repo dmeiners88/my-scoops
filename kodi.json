@@ -17,7 +17,8 @@
     ],
     "persist": "portable_data",
     "checkver": {
-        "github": "https://github.com/xbmc/xbmc"
+        "url": "https://github.com/xbmc/xbmc/releases/latest",
+        "re": "\/releases\/tag\/(?:v|V)?([\\d-\\w.]+)"
     },
     "autoupdate": {
         "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-$version-x86.exe#/dl.7z"
