@@ -1,0 +1,19 @@
+{
+    "homepage": "https://kodi.tv/",
+    "description": "Kodi is the ultimate entertainment center",
+    "version": "17.6",
+    "license": {
+        "identifier": "GPL-2.0-or-later",
+        "url": "https://raw.githubusercontent.com/xbmc/xbmc/master/LICENSE.md"
+    },
+    "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-17.6-Krypton-x86.exe#/dl.7z",
+    "hash": "D50AA59064F440618DC29D6CD65B47F783BBD7C75CAEA5359A96F4F00F31475F",
+    "shortcuts": [
+        [
+            "Kodi.exe",
+            "Kodi",
+            "-p"
+        ]
+    ],
+    "persist": "portable_data"
+}
