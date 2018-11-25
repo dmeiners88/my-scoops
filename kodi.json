@@ -1,7 +1,7 @@
 {
     "homepage": "https://kodi.tv/",
     "description": "Kodi is the ultimate entertainment center",
-    "version": "17.6",
+    "version": "17.6-Krypton",
     "license": {
         "identifier": "GPL-2.0-or-later",
         "url": "https://raw.githubusercontent.com/xbmc/xbmc/master/LICENSE.md"
@@ -15,5 +15,11 @@
             "-p"
         ]
     ],
-    "persist": "portable_data"
+    "persist": "portable_data",
+    "checkver": {
+        "github": "https://github.com/xbmc/xbmc"
+    },
+    "autoupdate": {
+        "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-$version-x86.exe#/dl.7z"
+    }
 }
