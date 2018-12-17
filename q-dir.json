@@ -8,7 +8,7 @@
     },
     "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip?v=7.33",
     "extract_dir": "Q-Dir",
-    "hash": "42e2858226418798f81197848bb825f9991f8eae8a287f9d826aa93a178ac526",
+    "hash": "7542a7acdf9e51120f575139b3c0bfb32f869744f94a0876ccc21d9016dd57aa",
     "shortcuts": [
         [
             "Q-Dir_x64.exe",
@@ -24,7 +24,7 @@
         "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip?v=$version",
         "hash": {
             "url": "https://www.softwareok.com/?Download=Q-Dir",
-            "find": "Q-Dir_Portable_x64\\.zip.+virustotal.+>([\\w\\d]+)<"
+            "find": "Q-Dir_Portable_x64\\.zip.+?virustotal.+?>([\\w\\d]+)<"
         }
     }
 }
