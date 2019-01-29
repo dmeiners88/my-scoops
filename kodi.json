@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "http://mirrors.kodi.tv/releases/windows/win64/kodi-18.0-Leia-x64.exe#/dl.7z",
-            "hash": "SHA256: CD7148037253376DA80F5924F49652BA5FDC7DADD4586FAA30D62E31DB45FFC9"
+            "hash": "cd7148037253376da80f5924f49652ba5fdc7dadd4586faa30d62e31db45ffc9"
         },
         "32bit": {
             "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.0-Leia-x86.exe#/dl.7z",
@@ -29,11 +29,13 @@
         "re": "/releases/tag/(?:v|V)?([\\d-\\w.]+)"
     },
     "autoupdate": {
-        "64bit": {
-            "url": "http://mirrors.kodi.tv/releases/windows/win64/kodi-$version-x64.exe#/dl.7z"
-        },
-        "32bit": {
-            "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-$version-x86.exe#/dl.7z"
+        "architecture": {
+            "64bit": {
+                "url": "http://mirrors.kodi.tv/releases/windows/win64/kodi-$version-x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-$version-x86.exe#/dl.7z"
+            }
         }
     }
 }
