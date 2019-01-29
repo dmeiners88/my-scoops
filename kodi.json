@@ -1,13 +1,21 @@
 {
     "homepage": "https://kodi.tv/",
     "description": "Kodi is the ultimate entertainment center",
-    "version": "17.6-Krypton",
+    "version": "18.0-Leia",
     "license": {
         "identifier": "GPL-2.0-or-later",
         "url": "https://raw.githubusercontent.com/xbmc/xbmc/master/LICENSE.md"
     },
-    "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-17.6-Krypton-x86.exe#/dl.7z",
-    "hash": "d50aa59064f440618dc29d6cd65b47f783bbd7c75caea5359a96f4f00f31475f",
+    "architecture": {
+        "64bit": {
+            "url": "http://mirrors.kodi.tv/releases/windows/win64/kodi-18.0-Leia-x64.exe#/dl.7z",
+            "hash": "SHA256: CD7148037253376DA80F5924F49652BA5FDC7DADD4586FAA30D62E31DB45FFC9"
+        },
+        "32bit": {
+            "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.0-Leia-x86.exe#/dl.7z",
+            "hash": "d0be2fc7180f542202aa60a8f5475fa225d02079fd38d8dd2738770dec05a38e"
+        }
+    },
     "shortcuts": [
         [
             "Kodi.exe",
@@ -21,6 +29,11 @@
         "re": "/releases/tag/(?:v|V)?([\\d-\\w.]+)"
     },
     "autoupdate": {
-        "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-$version-x86.exe#/dl.7z"
+        "64bit": {
+            "url": "http://mirrors.kodi.tv/releases/windows/win64/kodi-$version-x64.exe#/dl.7z"
+        },
+        "32bit": {
+            "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-$version-x86.exe#/dl.7z"
+        }
     }
 }
