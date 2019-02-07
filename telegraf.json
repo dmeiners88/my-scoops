@@ -1,16 +1,16 @@
 {
     "homepage": "https://github.com/influxdata/telegraf",
     "description": "The plugin-driven server agent for collecting & reporting metrics",
-    "version": "1.9.3",
+    "version": "1.9.4",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://dl.influxdata.com/telegraf/releases/telegraf-1.9.3_windows_i386.zip",
-            "hash": "e55663a47d39aa0115fea34a04585d2c0604fee5ce2883f2ae2078c63114bfc3"
+            "url": "https://dl.influxdata.com/telegraf/releases/telegraf-1.9.4_windows_i386.zip",
+            "hash": "9155a11fd406ed2a525ec2b6907e6da327725ef0d40c838f4ef9278584519b80"
         },
         "64bit": {
-            "url": "https://dl.influxdata.com/telegraf/releases/telegraf-1.9.3_windows_amd64.zip",
-            "hash": "676e6a29dbcb50b2f181cb69f0d0fb69ac6eaa181897733aa3b9f924c1598299"
+            "url": "https://dl.influxdata.com/telegraf/releases/telegraf-1.9.4_windows_amd64.zip",
+            "hash": "47958e4b9919beb0e8a0356df20ed91cbab2e0529f5851a9ad9604e26752030d"
         }
     },
     "extract_dir": "telegraf",
