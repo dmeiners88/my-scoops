@@ -1,14 +1,14 @@
 {
     "homepage": "https://openmpt.org/",
     "description": "OpenMPT is a powerful audio application that makes writing music fun, easy and efficient.",
-    "version": "1.28.02.00",
+    "version": "1.28.03.00",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.xnview.com/en/xnview/"
     },
-    "url": "https://download.openmpt.org/OpenMPT-1.28.02.00.zip",
-    "extract_dir": "OpenMPT-1.28.02.00",
-    "hash": "md5:c58781c3e5531c56bd9669af0398325d",
+    "url": "https://download.openmpt.org/OpenMPT-1.28.03.00.zip",
+    "extract_dir": "OpenMPT-1.28.03.00",
+    "hash": "md5:6bc4c6bf22dece6d91274616c02856bf",
     "shortcuts": [
         [
             "mptrack.exe",
