@@ -1,19 +1,19 @@
 {
     "homepage": "https://kodi.tv/",
     "description": "Kodi is the ultimate entertainment center",
-    "version": "18.0-Leia",
+    "version": "18.1-Leia",
     "license": {
         "identifier": "GPL-2.0-or-later",
         "url": "https://raw.githubusercontent.com/xbmc/xbmc/master/LICENSE.md"
     },
     "architecture": {
         "64bit": {
-            "url": "http://mirrors.kodi.tv/releases/windows/win64/kodi-18.0-Leia-x64.exe#/dl.7z",
-            "hash": "cd7148037253376da80f5924f49652ba5fdc7dadd4586faa30d62e31db45ffc9"
+            "url": "http://mirrors.kodi.tv/releases/windows/win64/kodi-18.1-Leia-x64.exe#/dl.7z",
+            "hash": "2a898e4cc5cc7db32474aba6800024bb5958596a29d9f6eb852dc5ac4e189a32"
         },
         "32bit": {
-            "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.0-Leia-x86.exe#/dl.7z",
-            "hash": "d0be2fc7180f542202aa60a8f5475fa225d02079fd38d8dd2738770dec05a38e"
+            "url": "http://mirrors.kodi.tv/releases/windows/win32/kodi-18.1-Leia-x86.exe#/dl.7z",
+            "hash": "d3610f0aa119c2fce681f02055df7e0d1f9f21410adee4209cfe1c17a3a4b21c"
         }
     },
     "shortcuts": [
