@@ -1,0 +1,34 @@
+{
+    "homepage": "https://github.com/Francesco149/weebp",
+    "description": "free and open-source wallpaper engine, set any window as your wallpaper",
+    "version": "0.6.1",
+    "license": "Unlicense",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/Francesco149/weebp/releases/download/0.6.1/weebp-0.6.1-windows-x86.zip",
+            "hash": "4be49ac4de93a3e073696b405c5f3850a04b8734e2a691e7749ff2acc403f4e2"
+        },
+        "64bit": {
+            "url": "https://github.com/Francesco149/weebp/releases/download/0.6.1/weebp-0.6.1-windows-x64.zip",
+            "hash": "753e6c4e0a9227f7c80141c495e422723f6c799eebacc106665aff07cc2b3cbb"
+        }
+    },
+    "extract_dir": "weebp-0.6.1-windows-x64",
+    "bin": [
+        "wp.exe",
+        "wp-headless.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/Francesco149/weebp"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/Francesco149/weebp/releases/download/$version/weebp-$version-windows-x86.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/Francesco149/weebp/releases/download/$version/weebp-$version-windows-x64.zip"
+            }
+        }
+    }
+}
