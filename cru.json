@@ -1,0 +1,30 @@
+{
+    "homepage": "https://www.monitortests.com/",
+    "description": "Custom Resolution Utility",
+    "version": "1.4.1",
+    "license": "Freeware",
+    "url": "https://www.monitortests.com/cru-1.4.1.zip",
+    "hash": "74e661d0d30203b123ef0bf9e25746f8434c1627f4e63e2338bfaff39238b783",
+    "shortcuts": [
+        [
+            "CRU.exe",
+            "Custom Resolution Utility"
+        ],
+        [
+            "reset-all.exe",
+            "Custom Resolution Utility - Reset All"
+        ],
+        [
+            "restart.exe",
+            "Restart GPU driver (x86)"
+        ],
+        [
+            "restart64.exe",
+            "Restart GPU driver (x64)"
+        ]
+    ],
+    "checkver": "Custom Resolution Utility \\(CRU\\)</a> ([^\\ ]+)</p>",
+    "autoupdate": {
+        "url": "https://www.monitortests.com/cru-$version.zip"
+    }
+}
