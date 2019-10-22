@@ -1,14 +1,14 @@
 {
     "homepage": "https://www.softwareok.com/?seite=Freeware/Q-Dir",
     "description": "Q-Dir is a great alternative file manager for Windows with a amazing Quadro-View technique",
-    "version": "7.88",
+    "version": "7.89",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.softwareok.com/?seite=Freeware/Q-Dir/Eula"
     },
-    "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip?v=7.88",
+    "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip?v=7.89",
     "extract_dir": "Q-Dir",
-    "hash": "f69266c5d1b2066e8f6cc5e728c351a2b4b068d9345dfbd7885cdc44c4499d48",
+    "hash": "2b05bda88d1913dfb24fb75144c8d70e5a8ba89bc6704fc08785ee2f11e7305a",
     "shortcuts": [
         [
             "Q-Dir_x64.exe",
