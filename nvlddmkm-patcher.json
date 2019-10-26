@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.monitortests.com/",
     "description": "NVIDIA Pixel Clock Patcher",
-    "version": "1.4.7",
+    "version": "1.4.8",
     "license": "Freeware",
-    "url": "https://www.monitortests.com/nvlddmkm-patcher-1.4.7.zip",
-    "hash": "5c9a17e2b3eae82396c7b71895ce38d7dde6ab07501c69a56003a5bda973245a",
+    "url": "https://www.monitortests.com/nvlddmkm-patcher-1.4.8.zip",
+    "hash": "f347de9114b2567369b90d820b5401c1d50974999b487e250c5d52196022fc1b",
     "shortcuts": [
         [
             "nvlddmkm-patcher.exe",
