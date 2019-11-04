@@ -15,7 +15,7 @@
     "persist": "Settings.dat",
     "checkver": {
         "url": "https://www.tracker-software.com/product/pdf-xchange-viewer",
-        "re": "<strong>Current version:<\/strong> ([\\.0-9]+)"
+        "re": "<strong>Current version:</strong> ([\\.0-9]+)"
     },
     "autoupdate": {
         "url": "https://www.tracker-software.com/downloads/PDFX_Vwr_Port.zip?v=$version"
