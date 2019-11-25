@@ -11,7 +11,7 @@
             "NVIDIA Pixel Clock Patcher"
         ]
     ],
-    "checkver": "NVIDIA Pixel Clock Patcher</a> ([^\\ ]+)",
+    "checkver": "NVIDIA Pixel Clock Patcher</a>&nbsp;([^\\ ]+)<br>",
     "autoupdate": {
         "url": "https://www.monitortests.com/nvlddmkm-patcher-$version.zip"
     }
