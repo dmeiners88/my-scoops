@@ -23,7 +23,7 @@
             "Restart GPU driver (x64)"
         ]
     ],
-    "checkver": "Custom Resolution Utility \\(CRU\\)</a> ([^\\ ]+) ",
+    "checkver": "Custom Resolution Utility \\(CRU\\)</a>&nbsp;([^\\ ]+)<br>",
     "autoupdate": {
         "url": "https://www.monitortests.com/cru-$version.zip"
     }
