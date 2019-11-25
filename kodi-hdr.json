@@ -1,13 +1,13 @@
 {
     "homepage": "https://forum.kodi.tv/showthread.php?tid=345566",
     "description": "This version aims to bring support for full HDR10 pass through on Windows 10 using Nvidia and AMD GPUs.",
-    "version": "3.0",
+    "version": "3.0.1",
     "license": {
         "identifier": "GPL-2.0-or-later",
         "url": "https://raw.githubusercontent.com/fandangos/xbmc/master/LICENSE.md"
     },
-    "url": "https://github.com/fandangos/xbmc/releases/download/3.0/Kodi.HDR.Edition-3.0.exe#/dl.7z",
-    "hash": "eac81cfa98a6f1f1510a52385169c865703306f5dc9dcbd97b1fd36787684344",
+    "url": "https://github.com/fandangos/xbmc/releases/download/3.0.1/Kodi.HDR.Edition.3.0.1.exe#/dl.7z",
+    "hash": "5677675c294827bad63edd1515d49d9c8d320a482901464418faa997b35e4c84",
     "shortcuts": [
         [
             "Kodi.exe",
@@ -20,6 +20,6 @@
         "github": "https://github.com/fandangos/xbmc"
     },
     "autoupdate": {
-        "url": "https://github.com/fandangos/xbmc/releases/download/$version/Kodi.HDR.Edition-$version.exe#/dl.7z"
+        "url": "https://github.com/fandangos/xbmc/releases/download/$version/Kodi.HDR.Edition.$version.exe#/dl.7z"
     }
 }
