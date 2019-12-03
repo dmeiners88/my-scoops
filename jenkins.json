@@ -1,10 +1,10 @@
 {
     "homepage": "https://jenkins.io/",
     "description": "Jenkins automation server",
-    "version": "2.206",
+    "version": "2.207",
     "license": "MIT",
-    "url": "http://mirrors.jenkins.io/war/2.206/jenkins.war",
-    "hash": "5d824597f9f7fafa2d04640d48a3c6bd4358e6726ef47663bf48abc556ce5e03",
+    "url": "http://mirrors.jenkins.io/war/2.207/jenkins.war",
+    "hash": "fc8c964086859479d74f0a4aaf15543668de6f300d3aa75c2a1d5157a5259625",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
