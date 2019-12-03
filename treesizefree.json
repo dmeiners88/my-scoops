@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "https://www.jam-software.com/treesize_free/changes.shtml",
-        "re": "Version ([^\\ ]+):"
+        "re": "Version ([^\\ ]+)<\/h3>"
     },
     "autoupdate": {
         "url": "https://www.jam-software.de/treesize_free/TreeSizeFree-Portable.zip?v=$version"
