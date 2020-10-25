@@ -1,12 +1,12 @@
 {
     "homepage": "https://gomplate.ca/",
     "description": "A flexible commandline tool for template rendering. Supports lots of local and remote datasources.",
-    "version": "3.7.0",
+    "version": "3.8.0",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/hairyhenderson/gomplate/releases/download/v3.7.0/gomplate_windows-386.exe",
-            "hash": "84ff1405ad22a8037847014ed83ce92701e3b31d57f6a0bc5f1b6121700ceca3",
+            "url": "https://github.com/hairyhenderson/gomplate/releases/download/v3.8.0/gomplate_windows-386.exe",
+            "hash": "cf7a86d8eaf457077511977b77248a9147f6c960fe8ee0c9af093a516b2f8042",
             "bin": [
                 [
                     "gomplate_windows-386.exe",
@@ -15,8 +15,8 @@
             ]
         },
         "64bit": {
-            "url": "https://github.com/hairyhenderson/gomplate/releases/download/v3.7.0/gomplate_windows-amd64.exe",
-            "hash": "83330086ad2f96690cf8c860405973c504b6f00fb7a56f58b6eb003dbd2d931d",
+            "url": "https://github.com/hairyhenderson/gomplate/releases/download/v3.8.0/gomplate_windows-amd64.exe",
+            "hash": "bac0a87fd613d7e335efa3fa6302dfb57f482cc0e6780537c65816e581de5415",
             "bin": [
                 [
                     "gomplate_windows-amd64.exe",
